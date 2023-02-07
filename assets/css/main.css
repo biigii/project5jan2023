@@ -1,116 +1,33 @@
-.homepage h1 {
-  color: blue;
+h1 {
+  /* 0 255 RGB*/
+  /* color: #ff0000;
+  color: #f00;
+  color: #00ff00;
+  color: #0000ff;
+  color: #ffffff;  */
+  /* #fff */
+  /* color: #000000; */
+  /* opacity 0 => 1 */
+  /* opacity: 0.50;
+  background-color: #ff0000; */
+  /* #000 */
+  /* background-color: #3078bf; */
 }
 
-.about h1 {
-  color: red;
+h1 {
+  /* RGB RGBa  0 255*/
+  /* color: #ff0000;
+  color: rgb(255, 0, 0); */
+
+  /* color: #0000ff; */
+  /* color: rgb(0, 0, 255); */
+  /* color: rgb(100, 50, 40); */
+  /* rgba */
+  /* color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(67, 109, 76, 0.6); */
 }
 
-.contact h1 {
-  color: green;
-}
-
-.homepage nav {
-  background-color: yellow;
-}
-
-.about nav {
-  background-color: green;
-}
-
-.contact nav {
-  background-color: blue;
-}
-
-body.homepage {
-  background-color: gold;
-}
-
-body.about {
-  background-color: brown;
-}
-
-.block h2 {
-  text-align: center;
-}
-
-.block img {
-  /* some stylings goes here */
-}
-
-.block p {
-  text-transform: uppercase;
-  color: red;
-}
-
-.block button {
-  background-color: red;
-}
-
-/* .blog {
-  background-color: orange;
-}
-
-.news {
-  background-color: orange;
-} */
-
-/* can replace these 2 with below */
-
-.blog,
-.news {
-  background-color: orange;
-}
-
-.news__heading,
-.blog__heading {
-  text-align: center;
-}
-
-.news__button {
-  font-size: 30px;
-  text-transform: capitalize;
-}
-
-.news__button--default {
-  background-color: gray;
-}
-
-.news__button--success {
-  background-color: green;
-}
-
-.main-heading {
-  font-size: 30px;
-  background-color: red;
-  text-transform: uppercase;
-}
-
-.sub-heading {
-  background-color: red;
-  text-transform: uppercase;
-}
-
-.bg-red {
-    background-color: red;
-}
-
-.bg-success {
-  background-color: green;
-}
-
-.text-centre {
-  text-align: center;
-}
-
-.text-transform-upper {
-  text-transform: uppercase;
-}
-
-.text-transform-capital {
-  text-transform: capitalize;
-}
-
-.text-transform-lower {
-  text-transform: lowercase;
+h1 {
+  /* hsl */
+  color: hsl(30, 100%, 0%);
 }
