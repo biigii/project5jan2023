@@ -1,33 +1,60 @@
-h1 {
-  /* 0 255 RGB*/
-  /* color: #ff0000;
-  color: #f00;
-  color: #00ff00;
-  color: #0000ff;
-  color: #ffffff;  */
-  /* #fff */
-  /* color: #000000; */
-  /* opacity 0 => 1 */
-  /* opacity: 0.50;
-  background-color: #ff0000; */
-  /* #000 */
-  /* background-color: #3078bf; */
+/*  global selector and  it selects every element */
+* {
+  box-sizing: border-box;
+}
+
+
+/* .box {
+  width: 200px;
+  height: 200px;
+  padding: 40px;
+  margin: 40px;
+  border: 10px solid;
+} */
+
+/* inline-block */
+a.link {
+  display: inline;
+  background-color: red;
+  /* box-sizing: border-box; */
 }
 
 h1 {
-  /* RGB RGBa  0 255*/
-  /* color: #ff0000;
-  color: rgb(255, 0, 0); */
-
-  /* color: #0000ff; */
-  /* color: rgb(0, 0, 255); */
-  /* color: rgb(100, 50, 40); */
-  /* rgba */
-  /* color: rgba(255, 0, 0, 0.5);
-  background-color: rgba(67, 109, 76, 0.6); */
+  background-color: orange;
+  display: block;
+  /* width: 100%; */
+  /* box-sizing: border-box; */
 }
 
-h1 {
-  /* hsl */
-  color: hsl(30, 100%, 0%);
+.box-1 {
+  /* display: block; */
+  background-color: #f22;
+  width: 400px;
+  height: 200px;
+  border: 10px solid #9c9f3a;
+  padding: 20px;
+  margin: 30px;
+ /* box-sizing: border-box; */
+}
+
+.box-2 {
+  /* display: block; */
+  background-color: #f22;
+  width: 400px;
+  /* height: 200px; */
+  /* padding: 10px; */
+  border: 10px solid;
+  /* padding: 10px; */
+  padding-top: 20px;
+  padding-right: 70px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+
+  /* margin: 50px; */
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  /* box-sizing: content-box; */
+  /* box-sizing: border-box; */
 }
